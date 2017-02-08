@@ -1,0 +1,528 @@
+    1  ping google.com
+    2  python
+    3  ls
+    4  mkdir python_quiz
+    5  cd python_quiz/
+    6  ls
+    7  git
+    8  sudo apt-get install git
+    9  sudo vi /etc/apt/sources.list
+   10  wget https://dl.google.com/linux/linux_signing_key.pub
+   11  sudo apt-key add linux_signing_key.pub
+   12  sudo apt update
+   13  sudo apt install google-chrome-stable
+   14  ps -ef  | grep software
+   15  apt-get update
+   16  apt-get upgrade
+   17  ls
+   18  vi fib.py
+   19  python fib.py 
+   20  vi fib.py
+   21  python fib.py 
+   22  vi fib.py
+   23  python fib.py 
+   24  ls
+   25  vi randlist.py
+   26  python randlist.py 
+   27  ls
+   28  vi randlist.py
+   29  ls
+   30  python randlist.py 
+   31  vi randlist.py
+   32  python randlist.py 
+   33  vi randlist.py
+   34  apt-get update
+   35  apt-get upgrade
+   36  ls -a
+   37  ls -al
+   38  git
+   39  cd python_quiz/
+   40  ls
+   41  rm linux_signing_key.pub 
+   42  sudo -s
+   43  cd git_repos/
+   44  ls
+   45  git clone https://github.com/beetbox/beets.git
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd python_quiz/
+   50  ls
+   51  vi fib.py 
+   52  cat randlist.py 
+   53  sudo apt-get install mysql-server
+   54  ps -ef | grep mysql
+   55  mv python_quiz/ python_int
+   56  cd python_int/
+   57  ls
+   58  vi btree.py
+   59  python btree.py 
+   60  vi btree.py 
+   61  vim btree.py 
+   62  sudo apt-get install vim
+   63  vim btree.py 
+   64  vim sbtree.py
+   65  find ..
+   66  cd ..
+   67  cd git_repos/
+   68  cd beets/
+   69  ls
+   70  vi setup.
+   71  vi setup.cfg 
+   72  cd beets
+   73  ls
+   74  vi __init__.py 
+   75  cd ..
+   76  find . | grep requ
+   77  ping google.com
+   78  ping -t 10 google.com
+   79  ls -al
+   80  ls
+   81  cd git_repos/
+   82  ls
+   83  cd beets/
+   84  ls
+   85  cd beets
+   86  ls
+   87  cd ..
+   88  ls
+   89  ls -al
+   90  file *
+   91  vi beet
+   92  ./beet
+   93  pip install yaml
+   94  sudo apt install pythin-pip
+   95  sudo apt install python-pip
+   96  sudo -s
+   97  apt-get update 
+   98  apt-get update --fix-missing
+   99  ls -al
+  100  vi setup.py
+  101  init 0
+  102  vi setup.py
+  103  cd git_repos/
+  104  ls
+  105  cd beets/
+  106  ls
+  107  vi setup.py
+  108  ls -al
+  109  cd beets
+  110  ls
+  111  vi library.py 
+  112  sudo init 0
+  113  ls
+  114  cd python_int/
+  115  ls
+  116  cat btree.py 
+  117  ls
+  118  vi randlist.py 
+  119  ls
+  120  vi sbtree.py 
+  121  docker
+  122  sudo apt install docker.io
+  123  ls -a
+  124  ls -al
+  125  docker
+  126  pip install djanfo
+  127  sudo apt install python-pip
+  128  pip install django
+  129  python3
+  130  ls
+  131  ls -al
+  132  cd ..
+  133  ls
+  134  ls git_repos/
+  135  cd git_repos/
+  136  ls
+  137  cd beets
+  138  ls -al
+  139  cd ..
+  140  ls
+  141  cd python_int/
+  142  ls
+  143  vi *
+  144  ls
+  145  cd ..
+  146  ls
+  147  exit
+  148  docker
+  149  docker-compose
+  150  sudo apt install docker-compose
+  151  ls
+  152  exit
+  153  service mysql status
+  154  service mysql stop
+  155  service mysql status
+  156  docker ps
+  157  cat Dockerfile 
+  158  docker ps
+  159  ls
+  160  vi docker-compose.yml 
+  161  cat Dockerfile 
+  162  ls
+  163  exit
+  164  ls
+  165  ls git_repos/
+  166  cd python_int/
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd app_src
+  171  mkdir ventro
+  172  cd ventro/
+  173  ls
+  174  vi Dockerfile
+  175  ls
+  176  vi docker-compose.yml
+  177  mkdir tmp
+  178  cd tmp
+  179  ls
+  180  django-admin.py startproject --template=https://github.com/pinax/pinax-starter-projects/zipball/account cdtapp -n webpack.config.js -n PROJECT_README.md
+  181  ls
+  182  ls cdtapp/
+  183  cat cdtapp/requirements.txt 
+  184  cd ..
+  185  ls
+  186  cat Dockerfile 
+  187  vi Dockerfile 
+  188  ls
+  189  history
+  190  vi Dockerfile 
+  191  ls
+  192  vi docker-compose.yml 
+  193  ls
+  194  docker ps
+  195  docker-compose start mysql
+  196  service docker start
+  197  docker-compose start mysql
+  198  sudo usermod -aG docker $(whoami)
+  199  docker-compose start mysql
+  200  sudo service docker restart
+  201  docker ps
+  202  sudo service docker start
+  203  sudo service docker status
+  204  ls
+  205  sudo -s
+  206  exit
+  207  ls
+  208  cd ventro/
+  209  ls
+  210  ls -al
+  211  ls
+  212  docker-compose up web
+  213  docker info
+  214  docker ps
+  215  init 6
+  216  docker version
+  217  exit
+  218  ping google.com
+  219  ifconfig
+  220  ssh localhost
+  221  service sshd start
+  222  apt-get install openssh-server
+  223  sudo apt-get install openssh-server
+  224  ssh localhost
+  225  ifconfig
+  226  cd ventro/
+  227  ls
+  228  docker-compose start mysql
+  229  docker ps
+  230  ls
+  231  cat docker-compose.yml 
+  232  docker ps
+  233  docker-compose start mysql
+  234  docker ps
+  235  ls -al
+  236  vi docker-compose.yml 
+  237  rm -rf tmp
+  238  ls
+  239  vi docker-compose.yml 
+  240  docker ps
+  241  docker-compose start redis
+  242  docker ps
+  243  sudo service docker status
+  244  docker ps
+  245  ls
+  246  docker-compose start mysql
+  247  docker ps
+  248  ls
+  249  docker build .
+  250  docker ps
+  251  ls
+  252  cat docker-compose.yml 
+  253  docker images
+  254  docker ps --all
+  255  ls
+  256  docker-compose up mysql
+  257  bg
+  258  ls
+  259  docker-compose up redis
+  260  bg
+  261  docker ps
+  262  cat docker-compose.yml 
+  263  jobs
+  264  docker-compose up web
+  265  : oci runtime error: no such file or directory
+  266  ls
+  267  vi Dockerfile 
+  268  docker-compose up web
+  269  vi docker-compose.yml 
+  270  ls
+  271  vi Dockerfile 
+  272  docker-compose up web
+  273  vi Dockerfile 
+  274  docker-compose up web
+  275  docker run .
+  276  docker run web
+  277  docker run --help
+  278  ls
+  279  docker inspect .
+  280  docker-compose up web
+  281  ls
+  282  vi docker-compose.yml 
+  283  vi Dockerfile 
+  284  docker-compose up web
+  285  vi Dockerfile 
+  286  docker-compose up web
+  287  docker info
+  288  docker start web
+  289  docker-compose start web
+  290  sudo -s
+  291  apparmor_parser -R /etc/apparmor.d/docker-engine
+  292  rm /etc/apparmor.d/docker-engine
+  293  service docker restart
+  294  service docker status
+  295  ls /etc/apparmor.d/
+  296  init 6
+  297  ls
+  298  pwd
+  299  ls
+  300  cd ventro/
+  301  ls
+  302  docker-compose up
+  303  sudo servvice mysqld 
+  304  sudo service mysqld stop
+  305  sudo service mysql stop
+  306  sudo service mysql status
+  307  docker-compose up
+  308  ls
+  309  vi Dockerfile 
+  310  docker-compose up
+  311  vi docker-compose.yml 
+  312  docker-compose up
+  313  vi docker-compose.yml 
+  314  docker-compose up
+  315  ls
+  316  grep runall *
+  317  vi Dockerfile 
+  318  docker images
+  319  docker image 
+  320  docker images
+  321  docker images --help
+  322  docker ps -a
+  323  docker rmi 87e55dac1ae1
+  324  docker rmi ventro_web
+  325  docker rmi ventro_web --force
+  326  ls
+  327  vi Dockerfile 
+  328  docker ps -a
+  329  docker build .
+  330  docker-compose up
+  331  docker ps -a
+  332  exit
+  333  docker ps -a
+  334  ls
+  335  cd ventro/
+  336  ls
+  337  cat docker-compose.yml 
+  338  cat Dockerfile 
+  339  ls
+  340  docker-compose status
+  341  docker-compose kill
+  342  docker build .
+  343  docker-compose up
+  344  service mysql status
+  345  service mysql stop
+  346  docker-compose up
+  347  exit
+  348  sudo -s
+  349  service networking restart
+  350  ping google.com
+  351  service networking stop
+  352  service networking status
+  353  service networking start
+  354  service networking status
+  355  ifconfig
+  356  ping google.com
+  357  init 6
+  358  service mysql stop
+  359  exit
+  360  cd ventro/
+  361  ls
+  362  docker ps -a
+  363  docker build .
+  364  docker help build
+  365  docker build . --no-cache
+  366  docker ps --a
+  367  docker ps -a
+  368  docker-compose up mysql
+  369  docker-compose up mysql &
+  370  docker-compose up redis &
+  371  docker-compose up web
+  372  docker-compose
+  373  docker-compose ps
+  374  docker pull 87e55dac1a_87e55dac1a_87e55dac1a_ventro_web_1
+  375  docker-compose ps
+  376  docker-compose rm 87e55dac1a_87e55dac1a_87e55dac1a_ventro_web_1
+  377  docker-compose help build
+  378  docker-compose build web
+  379  docker-compose ps
+  380  cat Dockerfile 
+  381  docker-compose build web --no-cache
+  382  docker-compose build --no-cache web
+  383  docker-compose ps
+  384  docker-compose up web
+  385  docker-compose ps
+  386  docker-compose run web bash
+  387  ls
+  388  docker ps
+  389  vi docker-compose.yml 
+  390  docker-compose web run which python
+  391  docker-compose run web which python
+  392  docker-compose run web ls
+  393  docker-compose run web /usr/bin/python manage.py runserver
+  394  sudo -s
+  395  ls
+  396  cd ventro/
+  397  ls
+  398  vi docker-compose.yml 
+  399  vi Dockerfile 
+  400  docker-compose ps
+  401  docker-compose up
+  402  docker-compose rm 
+  403  docker-compose rm 9c4fc61db796583aba8bc8cee6e9b3ce583493232661c13585f41a81d11d4d19
+  404  docker-compose rm web
+  405  docker-compose up
+  406  docker ps -a
+  407  exit
+  408  docker ps
+  409  docer ps -a
+  410  docker ps -a
+  411  docker ps
+  412  docker-compose run web ls
+  413  cd ventro/
+  414  docker-compose run web ls
+  415  docker-compose run web ls cdtapp
+  416  history | grep run
+  417  docker run
+  418  docker run 899857f80ed4 ls
+  419  docker cp 899857f80ed4:./cdtapp/*.json .
+  420  docker cp 899857f80ed4:/src/app/cdtapp/*.json .
+  421  docker cp 899857f80ed4:/app/src/cdtapp/*.json .
+  422  docker cp 899857f80ed4:/app/src/ctdapp/*.json .
+  423  docker cp 899857f80ed4:/app/src/cdtapp/users/json .
+  424  ls
+  425  vi tmp
+  426  ls
+  427  sudo apt-get install virtualbpx-guest-additions-iso
+  428  exit
+  429  docker ps -a
+  430  cd ventro/
+  431  sl
+  432  ls
+  433  vi docker-compose.yml 
+  434  cat Dockerfile 
+  435  ls
+  436  vi docker-compose.yml 
+  437  docker-compose up
+  438  sudo service mysql stop
+  439  docker-compose up
+  440  ls
+  441  docker-compose run web python maage.py loadsites
+  442  docker-compose run web python manage.py loadsites
+  443  docker-compose run web python manage.py loaddata sites
+  444  docker-compose run web python manage.py migrate
+  445  docker-compose run web python manage.py loaddata sites
+  446  docker-compose run web ls
+  447  docker-compose run web find . -name *.db
+  448  docker-compose run web bash
+  449  docker ps -a
+  450  docker-compose down
+  451  docker-compose kill
+  452  docker-compose ps
+  453  ls
+  454  vi docker-compose.yml 
+  455  vi Dockerfile 
+  456  history | grep rm
+  457  docker-compose ps
+  458  docker-compose rm web
+  459  docker-compose up web
+  460  alias dc=docker-compose
+  461  dc build web --no-cache
+  462  dc build --no-cache web
+  463  docker-compose up
+  464  docker-compose ps
+  465  docker-compose run web bash
+  466  docker-compose up
+  467  docker-compose run web ls
+  468  docker-compose run web touch f
+  469  docker-compose run web ls
+  470  docker-compose up
+  471  exit
+  472  docker-compose run web bash
+  473  cd ventro/
+  474  docker-compose run web bash
+  475  docker ps -a
+  476  docker attach ventro_web
+  477  docker attach 899857f80ed4
+  478  docker ps
+  479  docker ps -a
+  480  docker ps
+  481  docker attach 899857f80ed4
+  482  docker ps
+  483  docker exec -it 899857f80ed4 bash
+  484  ls
+  485  git
+  486  ping google.com
+  487  exit
+  488  cd ventro/
+  489  ls
+  490  ls -al
+  491  cd ..
+  492  ls
+  493  cd Desktop/
+  494  ls
+  495  git clone https://github.com/gnuwho/test_bootstrap.git
+  496  ls
+  497  mv docker-compose.yml Dockerfile sites.json users.json test_bootstrap/
+  498  ls
+  499  cd test_bootstrap/
+  500  ls
+  501  git add .
+  502  git status
+  503  git commit -m 'adding files'
+  504  git config --global user.email "gnu@someplace.com"
+  505  git add .
+  506  git commit -m 'adding files'
+  507  git push origin master
+  508  history
+  509  history | more
+  510  exit
+  511  df -h
+  512  sudo dd if=/dev/zero | pv | sudo dd of=/bigemptyfile bs=4096k
+  513  sudo apt install pv
+  514  sudo dd if=/dev/zero | pv | sudo dd of=/bigemptyfile bs=4096k
+  515  ls -alh /
+  516  rm /bigemptyfile
+  517  sudo rm /bigemptyfile
+  518  ls
+  519  cd python_int/
+  520  ls
+  521  cd test_bootstrap/
+  522  ls
+  523  vi README.md 
+  524  history | more
+  525  ls
+  526  vi README.md 
+  527  history | more
+  528  history > run_history
