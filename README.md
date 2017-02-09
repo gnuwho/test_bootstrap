@@ -2,7 +2,7 @@
 
 ```
 sudo apt-get install git
-apt install docker-compose
+apt install -y docker-compose
 sudo usermod -aG docker $(whoami)
 git clone https://github.com/gnuwho/test_bootstrap.git
 cd test_bootstrap
