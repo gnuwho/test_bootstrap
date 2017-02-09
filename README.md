@@ -2,9 +2,11 @@
 
 ```
 sudo apt-get install git
-git clone https://github.com/gnuwho/test_bootstrap.git
 apt install docker-compose
 sudo usermod -aG docker $(whoami)
+git clone https://github.com/gnuwho/test_bootstrap.git
+cd test_bootstrap
+docker-compose up
 
 sudo apt install pv
 sudo dd if=/dev/zero | pv | sudo dd of=/bigemptyfile bs=4096k
