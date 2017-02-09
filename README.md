@@ -2,8 +2,8 @@
 
 ```
 sudo apt-get install git
-apt install -y docker-compose
-sudo usermod -aG docker $(whoami)
+sudo apt install -y docker-compose
+sudo usermod -aG docker vagrant
 git clone https://github.com/gnuwho/test_bootstrap.git
 cd test_bootstrap
 docker-compose up
