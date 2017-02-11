@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y python python-pip python-dev 
 RUN apt-get install -y libxml2-dev libxslt-dev libffi-dev libssl-dev 
 RUN apt-get install -y libmysqlclient-dev
-RUN pip install django 
+RUN pip install django==1.10.3 
 WORKDIR /app/src
 RUN django-admin.py startproject --template=https://github.com/pinax/pinax-starter-projects/zipball/account cdtapp -n webpack.config.js -n PROJECT_README.md
 WORKDIR /app/src/cdtapp 
